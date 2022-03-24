@@ -2,6 +2,7 @@ interface BlockType {
   title : string;
   description: string;
   time: string;
+  markdown: string;
 }
 
 interface SectionType {
