@@ -29,6 +29,7 @@ const Page = (props : {currentPage : string}) => {
 	 		{sectionList.map((section : SectionType, index : number) => {
        return(
          <Section 
+				 	key={index}
 				 	sectionName={section.sectionName}
 					blockList={section.blockList} 
 				/>

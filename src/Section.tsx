@@ -11,10 +11,12 @@ const Section = (props: {
     <>
       <p>{props.sectionName}</p>
       {props.blockList.map((block : BlockType, index : number) => {
+        const blockHash = hash.sha1(block)
         return(
           <Block 
+            key={blockHash}
             block={block} 
-            blockHash={hash.sha1(block)} 
+            blockHash={blockHash} 
           />
         )
       })}
