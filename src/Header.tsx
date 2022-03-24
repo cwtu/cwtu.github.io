@@ -20,8 +20,8 @@ const Header : React.FC = () => {
 		>
 			<Tab value="" label="Home" />
 			<Tab value="experiences" label="Experiences" />
-			<Tab value="courses" label="Courses Taken" />
 			<Tab value="projects" label="Projects" />
+			<Tab value="courses" label="Courses Taken" />
 		</Tabs>
 		
 	)
