@@ -7,7 +7,7 @@ const Body = () => {
 	const {currentPage} = React.useContext(CurrentPageContext);
 	
 	return (
-		currentPage === "home" ? 
+		currentPage === "" ? 
 				(<Home />) : (<BlockList section={currentPage} />)
 	)
 }

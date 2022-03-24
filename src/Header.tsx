@@ -18,9 +18,10 @@ const Header : React.FC = () => {
 			indicatorColor="secondary"
 			aria-label="secondary tabs example"
 		>
-			<Tab value="home" label="Home" />
-			<Tab value="experience" label="Experiences" />
-			<Tab value="course" label="Courses Taken" />
+			<Tab value="" label="Home" />
+			<Tab value="experiences" label="Experiences" />
+			<Tab value="courses" label="Courses Taken" />
+			<Tab value="projects" label="Projects" />
 		</Tabs>
 		
 	)
