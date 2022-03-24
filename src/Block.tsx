@@ -10,14 +10,14 @@ const Block = (
       blockHash : string,      
     }) => {
 
-  const {blockDisplayHash, setBlockDisplayHash} = React.useContext(BlockDisplayContext);
+  const {blockDisplay, setBlockDisplay} = React.useContext(BlockDisplayContext);
 
   const handleChange = (blockHash: string) => (event: any, isExpanded : boolean)=> {
-    setBlockDisplayHash(isExpanded ? blockHash : "");
+    setBlockDisplay(isExpanded ? blockHash : "");
   };
 
 	return(
-		<Accordion expanded={blockDisplayHash === props.blockHash} onChange={handleChange(props.blockHash)}>
+		<Accordion expanded={blockDisplay === props.blockHash} onChange={handleChange(props.blockHash)}>
       <AccordionSummary
         aria-controls="panel1bh-content"
         id="panel1bh-header"

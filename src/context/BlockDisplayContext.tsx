@@ -1,23 +1,23 @@
 import React from "react";
 
 interface DisplayHashContext {
-  blockDisplayHash: string;
-  setBlockDisplayHash: (newPage: string) => void;
+  blockDisplay: string;
+  setBlockDisplay: (newPage: string) => void;
 }
 
 export const BlockDisplayContext = React.createContext<DisplayHashContext>(
 	{
-		blockDisplayHash: '',
-		setBlockDisplayHash: (newPage: string) => {}
+		blockDisplay: '',
+		setBlockDisplay: (newPage: string) => {}
 	}
 )
 
 
 export const BlockDisplayContextProvider : React.FC = (props) => {
-	const [blockDisplayHash, setBlockDisplayHash] = React.useState<string>('')
+	const [blockDisplay, setBlockDisplay] = React.useState<string>('')
 
 	return (
-		<BlockDisplayContext.Provider value={{blockDisplayHash, setBlockDisplayHash}}>
+		<BlockDisplayContext.Provider value={{blockDisplay, setBlockDisplay}}>
 			{props.children}
 		</BlockDisplayContext.Provider>
 	)

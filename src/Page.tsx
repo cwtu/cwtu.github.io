@@ -1,10 +1,12 @@
 import React from "react";
 
 import { courses, experiences, projects } from "./assets/data/data";
+import { BlockDisplayContext } from "./context/BlockDisplayContext";
 import Section from "./Section";
 
 const Page = (props : {currentPage : string}) => {
 	const [sectionList , setSectionList]= React.useState<SectionType[]>([]);
+	const {setBlockDisplay} = React.useContext(BlockDisplayContext);
 
 	React.useEffect(() => {
     switch(props.currentPage) {
@@ -20,6 +22,7 @@ const Page = (props : {currentPage : string}) => {
       default:
         break;
     }
+		setBlockDisplay("")
   }, [props.currentPage])
 	return (
 		<>
