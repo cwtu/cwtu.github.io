@@ -1,21 +1,23 @@
 import { Accordion, AccordionDetails, AccordionSummary, Typography } from "@mui/material";
 import React from 'react'
+import { BlockDisplayContext } from "./context/BlockDisplayContext";
 
 
 
 const Block = (
     props : {
-      block : BlockProp,  
-      blockNum : number, 
-      blockDisplay : number,
-      handleChange : 
-        (arg0: number) => 
-          (event: React.SyntheticEvent<Element, Event>, expanded: boolean) => 
-            void
+      block : BlockType,  
+      blockHash : string,      
     }) => {
 
+  const {blockDisplayHash, setBlockDisplayHash} = React.useContext(BlockDisplayContext);
+
+  const handleChange = (blockHash: string) => (event: any, isExpanded : boolean)=> {
+    setBlockDisplayHash(isExpanded ? blockHash : "");
+  };
+
 	return(
-		<Accordion expanded={props.blockDisplay === props.blockNum} onChange={props.handleChange(props.blockNum)}>
+		<Accordion expanded={blockDisplayHash === props.blockHash} onChange={handleChange(props.blockHash)}>
       <AccordionSummary
         aria-controls="panel1bh-content"
         id="panel1bh-header"
