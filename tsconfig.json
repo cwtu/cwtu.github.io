@@ -17,9 +17,11 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": false,
+    "isolatedModules": true,
     "noEmit": true,
-    "typeRoots" : ["./types"]
+    "typeRoots": [
+      "./types"
+    ]
   },
   "include": [
     "src"
