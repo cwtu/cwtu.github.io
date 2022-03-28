@@ -5,6 +5,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ReactMarkdown from 'react-markdown';
 
 import { BlockDisplayContext } from "./context/BlockDisplayContext";
+import style from './markdown-styles.module.css';
+
 
 const Block = (
     props : {
@@ -44,7 +46,7 @@ const Block = (
         <Typography sx={{ color: 'text.secondary'}}>{props.block.time}</Typography>
       </AccordionSummary>
       <AccordionDetails>
-        <ReactMarkdown children={mdText}/>
+        <ReactMarkdown className={style.reactMarkDown} children={mdText}/>
         {/* <Typography>
           {props.block.description}
         </Typography> */}
