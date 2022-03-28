@@ -3,10 +3,16 @@ export const experiences : SectionType[] = [
 		sectionName: "Work Experience",
 		blockList: [
 			{
-				title: "EPI Material Technology Inc. - Fullstack Intern",
+				title: "EPI Material Technology Inc. - Full Stack Intern",
 				description: "this is my expereince",
-				markdown: "EPI.md",
-				time: "June 2020 - August 2020"
+				markdown: "EPI2020.md",
+				time: "June - August 2020"
+			},
+			{
+				title: "EPI Material Technology Inc. - IT Intern",
+				description: "this is my expereince",
+				markdown: "EPI2018.md",
+				time: "June - August 2018"
 			},
 		]
 	},
@@ -162,17 +168,58 @@ export const projects : SectionType[] = [
 		sectionName: "Personal Projects",
 		blockList: [
 			{
-				title: "DPunch",
+				title: "DPunch - Online Check-in DApp",
 				description: "this is my project",
 				markdown:"DPunch.md",
-				time: "feb. 2021"
+				time: "January 2022 - Present"
 			},
 			{
-				title: "Taiwan Scene Browser",
+				title: "Ethereum To-Do List - To-Do List DApp ",
 				description: "this is my project",
-				markdown:"Taiwan Scene Browser.md",
-				time: "sep. 2021"
+				markdown:"EthToDoList.md",
+				time: "March - May 2021"
+			},
+			{
+				title: "Taiwan Scene Browser - React Web App",
+				description: "this is my project",
+				markdown:"TaiwanSceneBrowser.md",
+				time: "March - May 2021"
+			},
+			{
+				title: "Bookmark Switcher - Firefox Add-Ons",
+				description: "this is my project",
+				markdown:"BookmarkSwitcher.md",
+				time: "January - March 2021"
+			},
+			{
+				title: "Forest Hunter - Java Text Based Game",
+				description: "this is my project",
+				markdown:"ForestHunter.md",
+				time: "November 2018 - January 2019"
 			}
+		]
+	},
+	{
+		sectionName: "Course Projects",
+		blockList: [
+			{
+				title: "Machine Learning with COVID-19 Data",
+				description: "this is my project",
+				markdown:"MLCOVID.md",
+				time: "February - May 2021"
+			},
+			{
+				title: "Over-Sand Vehicle",
+				description: "this is my project",
+				markdown:"OSV.md",
+				time: "Spring 2020"
+			},
+			{
+				title: "MeArm",
+				description: "this is my project",
+				markdown:"MeArm.md",
+				time: "March - May 2021"
+			},
 		]
 	}
 ]
