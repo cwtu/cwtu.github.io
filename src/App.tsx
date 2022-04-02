@@ -1,17 +1,19 @@
-// import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
-// import Home from "./Home"
-// import Course from "./Course"
-// import Experience from "./Experience"
-// import Header from "./Header"
-// import BlockList from "./BlockList"
+import { ThemeProvider } from "@emotion/react";
+
 import Main from "./Main"
 import { CurrentPageContextProvider } from "./context/CurrentPageContext"
+import theme from "./context/theme";
+import { CssBaseline } from "@mui/material";
+
 
 function App() {
   return (
-    <CurrentPageContextProvider>
-      <Main/>
-    </CurrentPageContextProvider>
+    <ThemeProvider theme={theme}>
+      <CurrentPageContextProvider>
+        <CssBaseline/>
+        <Main/>
+      </CurrentPageContextProvider>
+    </ThemeProvider>
     // <Router>
     //   <Header/>
     //   <Routes>

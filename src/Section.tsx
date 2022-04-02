@@ -1,6 +1,7 @@
 import React from "react";
 import hash from "object-hash";
 import Block from "./Block";
+import { Typography } from "@mui/material";
 
 const Section = (props: {
                   sectionName : string,
@@ -9,7 +10,7 @@ const Section = (props: {
 
   return (
     <>
-      <p>{props.sectionName}</p>
+      <Typography>{props.sectionName}</Typography>
       {props.blockList.map((block : BlockType, index : number) => {
         const blockHash = hash.sha1(block)
         return(
