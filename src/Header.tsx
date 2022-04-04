@@ -18,6 +18,7 @@ const Header : React.FC = () => {
 			indicatorColor="secondary"
 			aria-label="secondary tabs example"
 			sx={{	flex: "0 1 auto"}}
+			centered
 		>
 			<Tab value="" label="Home" />
 			<Tab value="experiences" label="Experiences" />

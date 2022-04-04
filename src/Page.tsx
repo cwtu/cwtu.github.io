@@ -6,7 +6,7 @@ import { BlockDisplayContext } from "./context/BlockDisplayContext";
 import Section from "./Section";
 
 const PageWrapper = styled(Box)(({theme, color}) => ({
-  height: "100%",
+  maxHeight: "100%",
   overflowY: "auto"
 }))
 

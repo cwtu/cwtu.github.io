@@ -2,15 +2,18 @@ import { Box, styled } from "@mui/material";
 import React from "react";
 import { BlockDisplayContextProvider } from "./context/BlockDisplayContext";
 import { CurrentPageContext } from "./context/CurrentPageContext";
+import Memoji from './assets/images/memoji/Mimoji_croped.gif'
 import Home from "./Home";
 import Page from "./Page";
 
 const BodyWrapper = styled(Box)(({ theme, color }) => ({
-  width: "75%",
+	display: "flex",
+  width: "80%",
   maxWidth: "1000px",
-  margin: "auto",
+  margin: "100px auto",
 	flex: "1 1 auto",
 	overflow: "auto",
+	alignItems: "center",
 }))
 
 const Body = () => {
@@ -18,6 +21,8 @@ const Body = () => {
 	
 	return (
 		<BodyWrapper>
+			<img style={{height: "200px", margin:"auto 40px auto 0px"}} src={Memoji} alt="loading..." />
+
 			{
 				currentPage === "" ? 
 			(<Home />) : 

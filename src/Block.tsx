@@ -10,13 +10,13 @@ import style from './markdown-styles.module.css';
 const MyAccordionDetails = styled(AccordionDetails)(({theme, color}) => ({
   // height: "50%",
   maxHeight: "400px",
-  overflow: "scroll"
+  overflow: "auto"
 }))
 
 const Block = (
     props : {
       block : BlockType,  
-      blockHash : string,      
+      blockHash : string,
     }) => {
 
   const {blockDisplay, setBlockDisplay} = React.useContext(BlockDisplayContext);

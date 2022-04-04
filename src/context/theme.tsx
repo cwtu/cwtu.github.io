@@ -12,9 +12,21 @@ const theme = createTheme({
 		 },
 		 background: {
 			//  paper: grey[300],
-			 default: grey[700],
+			 default: "#000",
 		 }
-	 }
+	 },
+		typography: {
+      fontFamily: [
+			'Noto Mono',
+			'Roboto',
+			'"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
+    },
 })
 
 export default theme;
