@@ -1,3 +1,4 @@
+import ScrollFade from "@benestudioco/react-scrollfade";
 import { Box, styled } from "@mui/material";
 import React from "react";
 
@@ -7,7 +8,8 @@ import Section from "./Section";
 
 const PageWrapper = styled(Box)(({theme, color}) => ({
   maxHeight: "100%",
-  overflowY: "auto"
+  overflowY: "auto",
+  // overflwow: "overlay",
 }))
 
 const Page = (props : {currentPage : string}) => {
@@ -32,15 +34,16 @@ const Page = (props : {currentPage : string}) => {
   }, [props.currentPage])
 	return (
 		<PageWrapper>
-	 		{sectionList.map((section : SectionType, index : number) => {
-       return(
-         <Section 
-				 	key={index}
-				 	sectionName={section.sectionName}
-					blockList={section.blockList} 
-				/>
-       )
-    	})}
+      {/* <ScrollFade/> */}
+        {sectionList.map((section : SectionType, index : number) => {
+        return(
+          <Section 
+            key={index}
+            sectionName={section.sectionName}
+            blockList={section.blockList} 
+          />
+        )
+        })}
 	 </PageWrapper>
 	)
 }

@@ -5,6 +5,7 @@ import { CurrentPageContextProvider } from "./context/CurrentPageContext"
 import theme from "./context/theme";
 import { CssBaseline } from "@mui/material";
 
+import  "./Scrollbar.css"
 
 function App() {
   return (

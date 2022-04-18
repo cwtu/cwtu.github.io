@@ -6,11 +6,13 @@ import ReactMarkdown from 'react-markdown';
 
 import { BlockDisplayContext } from "./context/BlockDisplayContext";
 import style from './markdown-styles.module.css';
+import ScrollFade from '@benestudioco/react-scrollfade';
 
 const MyAccordionDetails = styled(AccordionDetails)(({theme, color}) => ({
   // height: "50%",
   maxHeight: "400px",
-  overflow: "auto"
+  overflow: "auto",
+  background: theme.palette.background.paper
 }))
 
 const Block = (
@@ -49,6 +51,7 @@ const Block = (
         <Typography sx={{ color: 'text.secondary'}}>{props.block.time}</Typography>
       </AccordionSummary>
       <MyAccordionDetails>
+        <ScrollFade/>
         <ReactMarkdown className={style.reactMarkDown} children={mdText}/>
         {/* <Typography>
           {props.block.description}

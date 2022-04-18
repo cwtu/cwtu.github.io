@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+	background: transparent;
+	width: 0em;
+}
+
+::-webkit-scrollbar-thumb {
+	/* display: none; */
+	background: transparent;
+}
+
+/* firefox */
+* {
+	scrollbar-color: rebeccapurple transparent;
+	scrollbar-width: none;
+	scrollbar-gutter: "stable",
+	/* overflow-y: overlay; */
+}

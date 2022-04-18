@@ -13,6 +13,7 @@ const theme = createTheme({
 		 background: {
 			//  paper: grey[300],
 			 default: "#000",
+			 paper: "#555"
 		 }
 	 },
 		typography: {
