@@ -1,7 +1,7 @@
 import React from "react";
 import hash from "object-hash";
 import Block from "./Block";
-import { Typography } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 
 const Section = (props: {
                   sectionName : string,
@@ -9,8 +9,8 @@ const Section = (props: {
                 }) => {
 
   return (
-    <>
-      <Typography variant="h5">{props.sectionName}</Typography>
+    <Box marginBottom={4}>
+      <Typography variant="h5" >{props.sectionName}</Typography>
       {props.blockList.map((block : BlockType, index : number) => {
         const blockHash = hash.sha1(block)
         return(
@@ -21,7 +21,7 @@ const Section = (props: {
           />
         )
       })}
-	  </>
+	  </Box>
   );
 }
 

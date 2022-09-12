@@ -10,7 +10,7 @@ const BodyWrapper = styled(Box)(({ theme, color }) => ({
 	display: "flex",
   width: "80%",
   maxWidth: "1000px",
-  margin: "100px auto",
+  margin: "50px auto",
 	flex: "1 1 auto",
 	overflow: "auto",
 	alignItems: "center",

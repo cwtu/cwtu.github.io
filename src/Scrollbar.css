@@ -10,8 +10,8 @@
 
 /* firefox */
 * {
-	scrollbar-color: rebeccapurple transparent;
-	scrollbar-width: none;
+	scrollbar-color: white transparent;
+	scrollbar-width: thin;
 	scrollbar-gutter: "stable",
 	/* overflow-y: overlay; */
 }
