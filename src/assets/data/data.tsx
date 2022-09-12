@@ -227,7 +227,7 @@ export const courses : SectionType[] = [
 
 export const projects : SectionType[] = [
 	{
-		sectionName: "Personal Projects",
+		sectionName: "Projects",
 		blockList: [
 			// {
 			// 	title: "DPunch - Online Check-in DApp",
@@ -245,55 +245,62 @@ export const projects : SectionType[] = [
 				title: "Spotify Music Room with Django and ReactJS",
 				description: "this is my project",
 				markdown:"MusicQueueRoom.md",
-				time: "June - August 2022"
+				// time: "June - August 2022",
+				link: "https://github.com/cwtu/music-queue-room"
 			},
 			{
 				title: "Speech Recognition with Convolutional Neural Networks",
 				description: "this is my project",
 				markdown:"SpeechRecognition.md",
-				time: "September - December 2021"
+				// time: "September - December 2021",
+				link: "https://github.com/cwtu/Speech-Recognition/blob/main/SpeechRecognition.ipynb"
 			},
 			{
-				title: "Taiwan Scene Browser - React Web App",
+				title: "Taiwan Scene Browser with React",
 				description: "this is my project",
 				markdown:"TaiwanSceneBrowser.md",
-				time: "March - May 2021"
+				// time: "March - May 2021",
+				link: "https://cwtu.github.io/taiwan-scene-list/"
 			},
-			{
-				title: "Bookmark Switcher - Firefox Add-Ons",
-				description: "this is my project",
-				markdown:"BookmarkSwitcher.md",
-				time: "January - March 2021"
-			},
-			{
-				title: "Forest Hunter - Java Text Based Game",
-				description: "this is my project",
-				markdown:"ForestHunter.md",
-				time: "November 2018 - January 2019"
-			}
-		]
-	},
-	{
-		sectionName: "Course Projects",
-		blockList: [
 			{
 				title: "Machine Learning with COVID-19 Data",
 				description: "this is my project",
 				markdown:"MLCOVID.md",
-				time: "February - May 2021"
+				// time: "February - May 2021",
+				link: "https://chiayolin.org/cmsc320-final/"
 			},
 			{
-				title: "Over-Sand Vehicle",
+				title: "Bookmark Switcher Firefox Add-Ons",
 				description: "this is my project",
-				markdown:"OSV.md",
-				time: "Spring 2020"
+				markdown:"BookmarkSwitcher.md",
+				// time: "January - March 2021",
+				link: "https://github.com/cwtu/bookmark-switcher"
 			},
 			// {
-			// 	title: "MeArm",
+			// 	title: "Over-Sand Vehicle",
 			// 	description: "this is my project",
-			// 	markdown:"MeArm.md",
-			// 	time: "March - May 2021"
+			// 	markdown:"OSV.md",
+			// 	time: "Spring 2020"
 			// },
+			{
+				title: "Forest Hunter with Java",
+				description: "this is my project",
+				markdown:"ForestHunter.md",
+				// time: "November 2018 - January 2019",
+				link: "https://github.com/cwtu/forest-hunter"
+			}
 		]
-	}
+	},
+	// {
+	// 	sectionName: "Course Projects",
+	// 	blockList: [
+			
+	// 		{
+	// 			title: "MeArm",
+	// 			description: "this is my project",
+	// 			markdown:"MeArm.md",
+	// 			time: "March - May 2021"
+	// 		},
+	// 	]
+	// }
 ]

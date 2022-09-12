@@ -5,7 +5,7 @@
 *	Guided 3 members of backend team in setting up the backend environment on Amazon Web Service
 
 
-## Technologies
+## Leveraged Knowledge
 * ReactJs
 * Typescript
 * Javascript

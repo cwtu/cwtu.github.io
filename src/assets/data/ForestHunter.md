@@ -17,7 +17,3 @@ Welcome to my little game. You are randomly placed in a space of a 5X5 forest. T
 
 ### Info:
 ![alt text](https://cwtu.github.io/src/assets/images/ForestHunter/info.png)
-
-
-## How to run the game?
-clone this repository and run `java Main` in terminal

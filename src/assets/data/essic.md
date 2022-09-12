@@ -5,7 +5,7 @@
 *	Added RF wireless data transmission feature that allows the device to collect microwave data on drones
 
 
-## Technologies
+## Leveraged Knowledge
 * Python 
 * Tkinter
 * Matplotlib
