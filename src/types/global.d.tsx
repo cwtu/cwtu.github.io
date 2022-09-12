@@ -7,8 +7,9 @@ declare global {
 	type BlockType = {
 		title : string;
 		description: string;
-		time: string;
+		time?: string;
 		markdown: string;
+		link?: string;
 	}
 	
 }
