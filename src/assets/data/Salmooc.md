@@ -1,12 +1,9 @@
-# Salmooc
-
-You can view the site [here](http://salmooc.com).
-
 ## Responsibilities
-* Developed a problem-based learning platform that encourage reflections and discussions among peers
-* Integrated user experiences data from marketing and designing teams, and brainstorm key features 
-* Designed database schema that handles multiple courses with nested data structure 
-* Guided 3 members of backend team on setting up the backend environment on Amazon AWS
+*	Designed and developed React components for a problem-based learning platform that aims to improve students’ engagement in an online learning environment during the pandemic
+*	Added account authentication that allows users to sign up and store content materials using Amazon Cognito
+*	Implemented database schema to store course contents with recursive data structure using GraphQL and a data processor to reduce friction between frontend and backend
+*	Guided 3 members of backend team in setting up the backend environment on Amazon Web Service
+
 
 ## Technologies
 * ReactJs
@@ -15,6 +12,9 @@ You can view the site [here](http://salmooc.com).
 * Material-UI
 * Figma
 * AWS DynamoDB
+* AWS Amplify
 * AWS Lambda
 * AWS S3
 * GraphQL
+* NoSQL
+* Git/Github

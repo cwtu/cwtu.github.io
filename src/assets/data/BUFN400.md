@@ -1,0 +1,3 @@
+## Description
+
+This course will provide an overview of financial concepts and markets and datasets. Company financial statements will be used to review concepts including earnings, cash flow, accruals, investment, dividends, etc. The course will introduce concepts related to portfolio theory and asset pricing. It will introduce the fundamentals of the stock market and market microstructure, including bid ask spreads and market liquidity. Advanced topics include event studies, high frequency trading, Over The Counter (OTC) bond markets, and more specialized institutional arrangements including repo markets and foreign currency exchange markets.

@@ -1,7 +1,3 @@
-# Taiwan Scene List
-
-You can view the site [here](https://cwtu.github.io/taiwan-scene-list).
-
 ## Description
 
 This is a website for browsing scene spots in Taiwan. Users can filter scene spots by cities.
