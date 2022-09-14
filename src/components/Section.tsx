@@ -10,7 +10,7 @@ const Section = (props: {
 
   return (
     <Box marginBottom={4}>
-      <Typography variant="h5" >{props.sectionName}</Typography>
+      <Typography variant="h4" marginBottom={1}>{props.sectionName}</Typography>
       {props.blockList.map((block : BlockType, index : number) => {
         const blockHash = hash.sha1(block)
         return(

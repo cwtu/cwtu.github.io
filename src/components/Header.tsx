@@ -1,6 +1,6 @@
 import { Tabs, Tab } from "@mui/material";
 import React , { ChangeEvent} from "react";
-import { CurrentPageContext } from "./context/CurrentPageContext";
+import { CurrentPageContext } from "../context/CurrentPageContext";
 
 const Header : React.FC = () => {
 	const {currentPage, setCurrentPage} = React.useContext(CurrentPageContext);
@@ -24,6 +24,7 @@ const Header : React.FC = () => {
 			<Tab value="experiences" label="Experiences" />
 			<Tab value="projects" label="Projects" />
 			<Tab value="courses" label="Courses Taken" />
+			<Tab value="skills" label="Skills" />
 		</Tabs>
 		
 	)

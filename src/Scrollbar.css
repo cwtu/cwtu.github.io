@@ -10,7 +10,7 @@
 
 /* firefox */
 * {
-	scrollbar-color: white transparent;
+	scrollbar-color: #ff5722 transparent;
 	scrollbar-width: thin;
 	scrollbar-gutter: "stable",
 	/* overflow-y: overlay; */

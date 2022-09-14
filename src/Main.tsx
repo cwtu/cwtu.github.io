@@ -1,7 +1,7 @@
 import { Box, styled } from "@mui/material";
-import Body from "./Body";
-import Footer from "./Footer";
-import Header from "./Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const MainWrapper = styled(Box)(({theme, color}) => ({
 	height: "100vh",

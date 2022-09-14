@@ -8,7 +8,7 @@ const iconProps = {
 
 const Footer = () => {
 	return(
-		<Grid container rowSpacing={0} justifyContent="center" >
+		<Grid padding={2} container rowSpacing={0} justifyContent="center" >
 			<Grid item xs={1}>
 				<Link href='mailto:cwtu12@gmail.com' aria-label='GitHub'>
 					<MailRounded fontSize="large" color="secondary"/>
