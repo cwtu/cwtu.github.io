@@ -1,6 +1,6 @@
 export const experiences : SectionType[] = [
 	{
-		sectionName: "Work Experience",
+		sectionName: "Professional Experiences",
 		blockList: [
 			{
 				title: "Software & Research Intern @ Earth System Science Interdisciplinary Center ",
