@@ -5,8 +5,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import OpenInNewRoundedIcon from '@mui/icons-material/OpenInNewRounded';
 import ReactMarkdown from 'react-markdown';
 
-import { BlockDisplayContext } from "./context/BlockDisplayContext";
-import style from './markdown-styles.module.css';
+import { BlockDisplayContext } from "../context/BlockDisplayContext";
+import style from '../markdown-styles.module.css';
 import ScrollFade from '@benestudioco/react-scrollfade';
 
 const MyAccordionDetails = styled(AccordionDetails)(({theme, color}) => ({
@@ -26,7 +26,7 @@ const Block = (
   const [mdText, setMdText] = React.useState('');
 
   React.useEffect(() => { // convert markdown file to string
-    import(`./assets/data/${props.block.markdown}`)
+    import(`../assets/data/${props.block.markdown}`)
       .then(res => {
         fetch(res.default)
           .then(res => res.text())

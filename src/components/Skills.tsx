@@ -1,21 +1,21 @@
 import { Box, Typography, Grid, Rating, styled} from "@mui/material";
 import React from "react";
 // import Memoji from './assets/images/memoji/giphy.gif'
-import ReactLogo from "./assets/images/logos/reactjs.png";
-import AWSLogo from "./assets/images/logos/aws.png";
-import DJangoLogo from "./assets/images/logos/django.png";
-import GraphQLLogo from "./assets/images/logos/graphql.png";
-import DockerLogo from "./assets/images/logos/docker.png";
-import MySQLLogo from "./assets/images/logos/mysql.png";
-import ArduinoLogo from "./assets/images/logos/arduino.png";
-import TypeScriptLogo from "./assets/images/logos/typescript.png";
-import JavaScriptLogo from "./assets/images/logos/javascript.png";
-import CLogo from "./assets/images/logos/c.png";
-import CPPLogo from "./assets/images/logos/c++.png";
-import JavaLogo from "./assets/images/logos/java.png";
-import PythonLogo from "./assets/images/logos/python.png";
-import GitLogo from "./assets/images/logos/git.png";
-import MuiLogo from "./assets/images/logos/mui.png";
+import ReactLogo from "../assets/images/logos/reactjs.png";
+import AWSLogo from "../assets/images/logos/aws.png";
+import DJangoLogo from "../assets/images/logos/django.png";
+import GraphQLLogo from "../assets/images/logos/graphql.png";
+import DockerLogo from "../assets/images/logos/docker.png";
+import MySQLLogo from "../assets/images/logos/mysql.png";
+import ArduinoLogo from "../assets/images/logos/arduino.png";
+import TypeScriptLogo from "../assets/images/logos/typescript.png";
+import JavaScriptLogo from "../assets/images/logos/javascript.png";
+import CLogo from "../assets/images/logos/c.png";
+import CPPLogo from "../assets/images/logos/c++.png";
+import JavaLogo from "../assets/images/logos/java.png";
+import PythonLogo from "../assets/images/logos/python.png";
+import GitLogo from "../assets/images/logos/git.png";
+import MuiLogo from "../assets/images/logos/mui.png";
 
 
 const MyGridItem = styled(Grid)(({ theme, color }) => ({

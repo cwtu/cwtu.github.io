@@ -2,7 +2,7 @@ import { Box, styled } from "@mui/material";
 import React from "react";
 import { BlockDisplayContextProvider } from "../context/BlockDisplayContext";
 import { CurrentPageContext } from "../context/CurrentPageContext";
-import Memoji from './assets/images/memoji/Mimoji_croped.gif'
+import Memoji from '../assets/images/memoji/Mimoji_croped.gif'
 import Home from "./Home";
 import Page from "./Page";
 import Skills from "./Skills";
