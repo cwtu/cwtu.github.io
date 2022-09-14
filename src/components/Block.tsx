@@ -7,7 +7,7 @@ import ReactMarkdown from 'react-markdown';
 
 import { BlockDisplayContext } from "../context/BlockDisplayContext";
 import style from '../markdown-styles.module.css';
-import ScrollFade from '@benestudioco/react-scrollfade';
+// import ScrollFade from '@benestudioco/react-scrollfade';
 
 const MyAccordionDetails = styled(AccordionDetails)(({theme, color}) => ({
   // height: "50%",
@@ -65,7 +65,7 @@ const Block = (
         
       </AccordionSummary>
       <MyAccordionDetails>
-        <ScrollFade/>
+        {/* <ScrollFade/> */}
         <ReactMarkdown className={style.reactMarkDown} children={mdText}/>
         {
         'link' in props.block ? 

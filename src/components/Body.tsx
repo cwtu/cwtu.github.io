@@ -6,7 +6,7 @@ import Memoji from '../assets/images/memoji/Mimoji_croped.gif'
 import Home from "./Home";
 import Page from "./Page";
 import Skills from "./Skills";
-import ScrollFade from "@benestudioco/react-scrollfade";
+// import ScrollFade from "@benestudioco/react-scrollfade";
 
 const BodyWrapper = styled(Box)(({ theme, color }) => ({
 	display: "flex",

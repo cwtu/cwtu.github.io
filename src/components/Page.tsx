@@ -1,4 +1,4 @@
-import ScrollFade from "@benestudioco/react-scrollfade";
+// import ScrollFade from "@benestudioco/react-scrollfade";
 import { Box, styled } from "@mui/material";
 import React from "react";
 
