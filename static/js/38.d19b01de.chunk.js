@@ -1,0 +1,2 @@
+(this["webpackJsonpcwtu12.github.io"]=this["webpackJsonpcwtu12.github.io"]||[]).push([[38],{141:function(t,i,s){"use strict";s.r(i),i.default=s.p+"static/media/nailedfit.b4e44554.md"}}]);
+//# sourceMappingURL=38.d19b01de.chunk.js.map

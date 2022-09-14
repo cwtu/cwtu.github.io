@@ -1,0 +1,3 @@
+## Description
+
+Introduction to the mathematical models used in finance and economics with emphasis on pricing derivative instruments. Designed for students in mathematics, computer science, engineering, finance and physics. Financial markets and instruments; elements from basic probability theory; interest rates and present value analysis; normal distribution of stock returns; option pricing; arbitrage pricing theory; the multiperiod binomial model; the Black-Scholes option pricing formula; proof of the Black-Scholes option pricing formula and applications; trading and hedging of options; Delta hedging; utility functions and portfolio theory; elementary stochastic calculus; Ito's Lemma; the Black-Scholes equation and its conversion to the heat equation.

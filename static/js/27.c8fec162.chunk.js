@@ -1,0 +1,2 @@
+(this["webpackJsonpcwtu12.github.io"]=this["webpackJsonpcwtu12.github.io"]||[]).push([[27],{130:function(t,i,s){"use strict";s.r(i),i.default=s.p+"static/media/MATH424.6b232b36.md"}}]);
+//# sourceMappingURL=27.c8fec162.chunk.js.map
