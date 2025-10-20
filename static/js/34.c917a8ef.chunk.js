@@ -1,0 +1,2 @@
+(this["webpackJsonpcwtu.github.io"]=this["webpackJsonpcwtu.github.io"]||[]).push([[34],{128:function(t,i,c){"use strict";c.r(i),i.default=c.p+"static/media/Salmooc.2b791ca5.md"}}]);
+//# sourceMappingURL=34.c917a8ef.chunk.js.map

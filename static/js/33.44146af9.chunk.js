@@ -1,0 +1,2 @@
+(this["webpackJsonpcwtu.github.io"]=this["webpackJsonpcwtu.github.io"]||[]).push([[33],{127:function(t,i,s){"use strict";s.r(i),i.default=s.p+"static/media/STAT470.863f97e4.md"}}]);
+//# sourceMappingURL=33.44146af9.chunk.js.map

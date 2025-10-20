@@ -1,0 +1,2 @@
+(this["webpackJsonpcwtu.github.io"]=this["webpackJsonpcwtu.github.io"]||[]).push([[28],{122:function(t,i,c){"use strict";c.r(i),i.default=c.p+"static/media/MLCOVID.1c9a1df5.md"}}]);
+//# sourceMappingURL=28.512cb436.chunk.js.map
